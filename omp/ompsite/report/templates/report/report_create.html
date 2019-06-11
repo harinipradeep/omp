@@ -1,0 +1,5 @@
+<form action="/report/property/{{ property_id }}/report_create/" method="post" >
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
